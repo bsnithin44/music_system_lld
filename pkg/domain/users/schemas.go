@@ -7,6 +7,8 @@ type User struct {
 	email string
 
 	Playlist []songs.Song
+// 	
+// 	Playlists map[string]songs.Song
 }
 
 func NewUser(name, email string) User {
